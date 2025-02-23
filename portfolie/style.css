@@ -38,12 +38,17 @@ body{
     z-index: 5;
 }
 
+.logo img{
+    width: 100px;
+} 
+
 .logo{
     font-size: 3rem;
     color: var(--text-color);
     font-weight: 800;
     cursor: pointer;
     transition: 0.3s ease;
+
 }
 .logo span{
     text-shadow: 0 0 25px var(--main-color);
@@ -111,7 +116,7 @@ span{
 }
 
 .home-content h1{
-    font-size: 7rem;
+    font-size: 6rem;
     font-weight: 700;
     margin-top: 1.5rem;
     line-height: 1;
@@ -138,7 +143,7 @@ span{
 }
 
 .home-content p{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 500;
     line-height: 1.8;
     max-width: 1000px;
@@ -490,7 +495,7 @@ video {
 
 .gallery-box img{
     width: 100%;
-    height: 100%;
+    height: auto;
     border: 3px solid var(--text-color);
     box-shadow: 0 0 25px var(--main-color);
     border-radius: 3rem;
