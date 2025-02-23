@@ -26,3 +26,13 @@ menuIcon.onclick = () => {
     menuIcon.classList.toggle('bx-x');
     navbar.classList.toggle('active')
 }
+        
+document.querySelectorAll('#video').forEach(video => {
+    video.addEventListener('mouseenter', () => {
+        video.play();
+    });
+    
+    video.addEventListener('mouseleave', () => {
+        video.pause();
+    });
+});
